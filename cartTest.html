@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+			$(".nav-button,.primary-nav").toggleClass("open");
+			});    
+		});
+		</script>
+
+<title>PLUME RECORDS</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" >
+<link href="css/media.css" rel="stylesheet" type="text/css" >
+<link href='https://fonts.googleapis.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'> 
+<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700' rel='stylesheet' type='text/css'>
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+</head>
+<body>
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="lisa.fortino06@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Dillon Record">
+<input type="hidden" name="amount" value="20.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="bn" value="PP-ShopCartBF:index.html:NonHostedGuest">
+<input type="image" src="images/buyNow.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>

@@ -1,0 +1,600 @@
+
+/*--------------------------------------1000-----------------------------------*/
+@media screen and (max-width: 1000px) {
+
+	#wrapper {
+		width: 85%;
+	}
+
+	nav {
+		width: 85%;
+	}
+
+	.logo_wrap {
+		width: 85%;
+	}
+}
+
+/*--------------------------------------900------------------------------------*/
+@media screen and (max-width: 900px) {
+
+
+	.recommend {
+		margin-bottom: 18em;
+	}
+
+	.rec {
+		width: 30%;
+		margin-right: 2.4em;
+	}
+
+	.rec:last-of-type {
+		margin-right: 0;
+	}
+
+	p.merch_Desc {
+		width: 100%;
+	}
+
+}
+
+/*--------------------------------------768------------------------------------*/
+@media screen and (max-width: 768px) {
+
+	
+	header {
+		width: 100%;
+	}
+	
+	p.mission {
+		width: 80%;
+		font-size: 1em;
+		text-align: center;
+		margin: 1em auto 2em auto;
+	}
+	
+	main {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	aside {
+		width: 100%;
+		margin-bottom: 0;
+		padding-top: 2em;
+		float: none;
+	}
+
+	#merch_Inner_Photos {
+		float: none;
+	}
+
+	.rec {
+		width: 23%;
+		margin-left: 3em;
+		margin-right: 0;
+	}
+
+	.rec h3 {
+		font-size: .7em;
+		line-height: 1em;
+		margin-bottom: .5em;
+	}
+
+	.album_description {
+		margin-bottom: 3em;
+		width: 90%;
+	}
+
+	.album_description h2 {
+		font-size: 1.2em;
+	}
+
+	.album_description p {
+		padding-top: 1em;
+		font-size: .8em;
+		line-height: 1.4em;
+	}
+
+	#Merch {
+		overflow: hidden;
+	}
+
+	.merch {
+		width: 29%;
+		float: left;
+		margin-left: 1.2em;
+		clear: none;
+	}
+
+	.merch_main {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.main_merch_mobile {
+		display: block;
+		width: 100%;
+	}
+
+	p.merch_Desc {
+		line-height: 1.5em;
+		font-size: .8em;
+	}
+
+	.album_description h2 {
+		display: none;
+	}
+
+	.album_description {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	blockquote {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	p.liner_notes {
+		display: none;
+	}
+
+	p.liner_notes_mobile {
+		width: 60%;
+		font-size: .7em;
+	}
+
+	#contact {
+		float: none;
+		margin: 0 auto 1.5em auto;
+		text-align: center;
+		overflow: hidden;
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	.single {
+		width: 90%;
+		margin: auto;
+	}
+
+
+	img.big {
+		max-width: 100%;
+		margin-bottom: 1em;
+	}
+
+}
+/*--------------------------------------560------------------------------------*/
+@media screen and (max-width: 576px) {
+
+	.inner {
+		width: 500px;
+	}
+
+	ul.rights {
+		margin: .5em;
+		
+	}
+
+	ul.foot_Cont {
+		margin:.5em;
+		
+	}
+
+	.foot_Social {
+		width: 28%;
+		margin:1.3em auto;
+	}
+
+	.foot_Social img {
+		width: 35px;
+		padding-left: .5em;
+	}
+
+	.rec {
+		width: 40%;
+		margin-left: 2em;
+		margin-right: 0;
+		margin-bottom: 1em;
+	}
+
+	.merch {
+		float: none;
+		width: 65%;
+		margin: 1em auto;
+	}
+
+	p.merch_Desc {
+		font-size: .8em;
+		line-height: 1.5em;
+	}
+
+	p.merch_Price {
+		font-size: .8em;
+		padding-top: .3em
+	}
+
+	.merch_main {
+		width: 99%;
+	}
+
+	.article {
+		width: 100%;
+	}
+
+	.album_description {
+		width: 99%;
+	}
+
+	.image_caption {
+		width: 100%;
+		margin: 0 auto 3em auto;
+	}
+
+}
+
+
+
+/*--------------------------------------480------------------------------------*/
+@media screen and (max-width: 480px) {
+
+	#wrapper {
+		width: 95%;
+	}
+
+	header { 
+		margin-bottom: 0;
+		height: 150px;
+		/*background: #FCE1FC;*/
+		background: url('../images/water_blue.jpg');
+		background-attachment: fixed;
+	}
+
+	nav {
+		display: none;
+	}
+
+	main {
+		width: 100%;
+	}
+/*
+	.logo_wrap {
+		width: 20%;
+		margin: 0 auto;
+		position: relative;
+		z-index: 120;
+		overflow: hidden;
+	}
+
+	#logo {
+		float: none;
+		text-align: center;
+		margin: .5em auto;
+		width: auto;
+	}
+
+	#logo img {
+		width: 80px;
+	}
+*/
+
+	header {
+		height: 150px;
+	}
+
+	.logo_wrap {
+		width: 20%;
+		margin: 0 auto;
+		position: relative;
+		z-index: 120;
+		overflow: hidden;
+	}
+
+	#logo {
+		float: none;
+		text-align: center;
+		margin: .5em auto;
+		width: auto;
+	}
+
+	#logo img {
+		width: 100px;
+		padding-top: .5em;
+	}
+
+	.mobile_social {
+		margin: .8em auto 1.8em auto;
+		float: clear;
+		width: 60%;
+		display: block;
+		overflow: hidden;
+	}
+
+	.mobile_social img {
+		display: inline;
+		width: 18%;
+		float: left;
+		margin-left: 1.4em;
+		margin-bottom: 0;
+	}
+
+	.rec {
+		width: 43%;
+		margin-left: 1em;
+	}
+
+
+	p.liner_notes_mobile {
+		width: 100%;
+	}
+
+	#merch_Inner_Photos {
+		width: 100%;
+		margin: auto;
+	}
+
+	#merch_Inner_Photos img.big_Photo {
+		padding: 0;
+		margin: 0;
+		float: none;
+	}
+
+	.album_description {
+		width: 100%;
+		padding-top: .8em;
+		float: none;
+		clear: both;
+	}
+
+	.album_description p {
+		line-height: 1.6em;
+	}
+
+	.merch {
+		float: none;
+		width: 65%;
+		margin: 1em auto;
+	}
+
+	p.merch_Desc {
+		font-size: .8em;
+		line-height: 1.5em;
+		width: 100%;
+	}
+
+	.song iframe {
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+
+
+	p.mission {
+		width: 100%;
+	}
+
+	img.group_Photo {
+		width: 100%;
+	}
+
+	blockquote {
+		line-height: 140%;
+		padding-top: 2.5em 1.8em 0 1.8em;
+		width: 80%;
+	}
+
+	p.senna {
+		font-size: .9em;
+		padding: .5em 1.8em 1.8em 0;
+	}
+
+	.article {
+		padding-top: 1em;
+		margin-bottom: 2em;
+	}
+
+	.single {
+		width: 97%;
+	}
+
+	a.buy_Now_Button {
+		display: block;
+	}
+
+	footer.desktop {
+		display: none;
+	}
+
+	footer.mobile {
+		margin-top: 2em;
+		padding-top: 1em;
+		padding-bottom: 1.5em;
+		width: 100%;
+		clear: both;
+		overflow: hidden;
+		background: url('../images/water_blue.jpg');
+		background-attachment: fixed;
+		display: block;
+		list-style-type: none;
+	}
+
+	ul.mobile_contact_footer {
+		text-align: center;
+		list-style-type: none;
+		font-size: .7em;
+		float: none;
+		width: 48%;
+		margin: auto;
+		border: none;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
+	ul.mobile_contact_footer li {
+		margin-top: .2em;
+	}
+
+	ul.mobile_rights_footer {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		list-style-type: none; 
+
+	}
+
+	ul.mobile_rights_footer li {
+		display: inline;
+		margin: 0 .1em .5em .1em;
+		width: 32%;
+		float: left;
+		font-size: .6em
+	}
+
+	.nav-button, .primary-nav {
+		display: block;
+	}
+
+	/* Navigation Button
+	-------------------------------------------------------- */
+	.nav-button {
+		display: block;
+		position: absolute;
+		top: 7px;
+		left: 19px;
+		width: 50px;
+		height: 35px;
+		background: url('../images/menu-icon-large.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/menu-icon-large.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/menu-icon-large.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/menu-icon-large.png'),      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+		cursor: pointer;
+		border: 0 none;
+		border-bottom: 1px solid rgba(255,255,255,.1);
+		box-shadow: 0 0 4px rgba(0,0,0,.7) inset;
+		border-radius: 5px;
+		z-index: 999;
+		text-indent: -9999px;
+	}
+
+	.nav-button:hover { 
+		background-color: rgba(0,0,0,.1); 
+	}
+
+	.nav-button.open {
+		background: url('../images/close-icon-large.png'), -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/close-icon-large.png'),    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/close-icon-large.png'),     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background: url('../images/close-icon-large.png'),      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: 21px, 100%;
+	}
+
+	body { 
+		padding-top: 50px; 
+	} 
+
+	.primary-nav {
+		width: 100%;
+		float: none;
+		background-color: #9DD6C8;; /* change the menu color */
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:    -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:     -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		background-image:      -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,.2));
+		display: block;
+		height: 50px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		box-shadow: 0 1px 2px rgba(0,0,0,.6);
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		z-index: 998;
+		clear: both;
+	}
+
+	.primary-nav li {
+		display: none;
+		width: 100%;
+		font-family: Arial;
+	}
+
+	.primary-nav li a {
+		display: block;
+		width: 90%;
+		padding: 10px 5%;
+		font-size: 14px;
+		font-weight: bold;
+		text-shadow: -1px -1px 0 rgba(0,0,0,.15);
+		color: white;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,0,0,.2);
+		border-top: 1px solid rgba(255,255,255,.1); 
+	}
+
+	.primary-nav li a:hover {
+		background-color: rgba(0,0,0,.5);
+		border-top-color: transparent;
+	}
+
+	.primary-nav > li:first-child {
+		border-top: 1px solid rgba(0,0,0,.2);
+	}
+
+	/* Toggle the navigation bar open  */
+
+	.primary-nav.open { 
+		height: auto; 
+		padding-top: 50px;
+	}
+
+	.primary-nav.open li { 
+		display: block; 
+	}
+
+	/* Submenus – optional .parent class indicates dropdowns */
+
+	.primary-nav > li:hover > a {
+		background: rgba(0,0,0,.5);
+		border-bottom-color: transparent;
+	}
+
+	.primary-nav li.parent > a:after {
+		content: "▼";
+		color: rgba(255,255,255,.5);
+		float: right;
+	}
+
+	.primary-nav li.parent > a:hover {
+		background: rgba(0,0,0,.75);
+	}
+
+	.primary-nav li ul {
+		display: none;
+		background: rgba(0,0,0,.5);
+		border-top: 0 none;
+		padding: 0;
+	}
+
+	.primary-nav li ul a {
+		border: 0 none;
+		font-size: 12px;
+		padding: 10px 5%;
+		font-weight: normal;
+	}
+
+	.primary-nav li:hover ul {
+		display: block;
+		border-top: 0 none;
+	}
+}

@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+			$(".nav-button,.primary-nav").toggleClass("open");
+			});    
+		});
+		</script>
+
+<title>PLUME RECORDS</title>
+<link href=css/styles.css rel=stylesheet >
+<link href=css/media.css rel=stylesheet  >
+<link href='https://fonts.googleapis.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'> 
+<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700' rel='stylesheet' type='text/css'>
+
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+</head>
+<body>
+	
+	<!--~~~~~~~~~~~~~~~~~~~~HEADER~~~~~~~~~~~~~~~~~~~~~-->
+	<header>
+		<div class="logo_wrap">
+		<div id="logo">
+			<a href="index.html"><img src="images/plume_logo02.png" alt="logo"></a>
+		</div><!--end logo-->
+	</div>
+		<!--
+		<div class="social">
+			<ul class="soc">
+				<li><a href""><img src="images/facebook.png"></a></li>
+				<li><a href""><img src="images/twitter.png"></a></li>
+				<li><a href""><img src="images/instagram.png"></a></li>
+			</ul>
+		</div><!end social-->
+		
+
+		<div class="menu_wrap">
+		<nav>
+			<ul class="main_Nav">
+				<li><a href="news.html">NEWS</a></li>
+				<li><a href="artist.html">ARTISTS</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="merch_List.html">STORE</a></li>
+			</ul>
+		</nav>
+	</div>
+		</header>
+	
+
+		<!--~~~~~~~~~~~~~~~~~~~~~start mobile nav~~~~~~~~~~~~~~~~~-->
+				<button class="nav-button">Toggle Navigation</button>
+					
+					<ul class="primary-nav">
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="news.html">NEWS</a></li>
+						<li><a href="artist.html">ARTISTS</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="merch_List.html">STORE</a></li>
+
+						
+					</ul>
+
+			<!--end mobile nav-->
+
+<div id="wrapper">
+	
+	<!--~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--~~~~~~~~~~~~~~~~MERCH PHOTOS~~~~~~~~~~~~~~~~~~~-->
+		<div id="merch_Inner_Photos">
+			<img class="big_Photo" src="images/tomten.jpg" alt="big album">
+			<img class="small_Photo" src="images/vinyl_Record.jpg" alt="little album">
+			<img class="small_Photo" src="images/vinyl_Jacket.jpg" alt="little album">
+			<img class="small_Photo" src="images/record_Back.jpg" alt="little album">
+		</div><!--end merch Photo-->
+	<!--~~~~~~~~~~~~~~END MERCH PHOTOS~~~~~~~~~~~~~~~~~-->
+
+	<!--~~~~~~~~~~~~~~MERCH DESCRIPTION~~~~~~~~~~~~~~~~-->
+		<div id="merch_Inner_Description">
+			<h2>THIS IS WHERE THE ALBUM TITLE GOES</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Suspendisse rhoncus faucibus sollicitudin. Vestibulum auctor sed eros quis consectetur. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed nec condimentum ipsum, et mattis ante.</p>
+			<p>Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque, enim at dapibus luctus, enim nulla tincidunt enim, sed lobortis eros arcu id purus. Nunc scelerisque dui metus. Sed nec condimentum ipsum, et mattis ante.</p>
+			<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="lisa.fortino06@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Dillon Record">
+<input type="hidden" name="amount" value="20.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="bn" value="PP-ShopCartBF:index.html:NonHostedGuest">
+<input type="image" src="images/buyNow.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+		</div><!--end merch description-->
+	<!--~~~~~~~~~~~END MERCH DESCRIPTION~~~~~~~~~~~~~~-->
+
+	<!--~~~~~~~~~~~~~~~~~~~SONGS~~~~~~~~~~~~~~~~~~~~~~-->
+		<div id="merch_Inner_Song">
+			<iframe  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/150675600&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+		</div><!--end song-->
+	<!--~~~~~~~~~~~~~~~~END SONGS~~~~~~~~~~~~~~~~~~~~~-->
+
+	<!--~~~~~~~~~~~~~RECOMMENDATION~~~~~~~~~~~~~~~~~~~-->
+		<div id="recommend">
+			<h2>MAY WE RECOMMEND...</h2>
+			<div class="rec">
+				
+				<a href="merch_Inner.html"><img src="images/rec1.jpg" alt="recommended 1"></a>
+				<p class="merch_Desc">Dillon Shirt // $20</p>
+				<a class="buy_Now_Button" href="merch_Inner.html">buy</a>
+			</div><!--end rec-->
+			<div class="rec">
+				<a href="merch_Inner.html"><img src="images/rec2.jpg" alt="recommended 2"></a>
+				<p class="merch_Desc">Dillon Shirt // $20</p>
+				<a class="buy_Now_Button" href="merch_Inner.html">buy</a>
+			</div><!--end rec-->
+			<div class="rec">
+				<a href="merch_Inner.html"><img src="images/rec3.jpg" alt="recommended 3"></a>
+				<p class="merch_Desc">Dillon Shirt // $20</p>
+				<a class="buy_Now_Button" href="merch_Inner.html">buy</a>
+			</div><!--end rec-->
+			<div class="rec">
+				<a href="merch_Inner.html"><img src="images/rec2.jpg" alt="recommended 2"></a>
+				<p class="merch_Desc">Dillon Shirt // $20</p>
+				<a class="buy_Now_Button" href="merch_Inner.html">buy</a>
+			</div><!--end rec-->
+			<div class="rec">
+				<a href="merch_Inner.html"><img src="images/rec1.jpg" alt="recommended 1"></a>
+				<p class="merch_Desc">Dillon Shirt // $20</p>
+				<a class="buy_Now_Button" href="merch_Inner.html">buy</a>
+			</div><!--end rec-->
+		</div>
+	<!--~~~~~~~~~~~END RECOMMENDATION~~~~~~~~~~~~~~~~~-->
+
+</div><!--end wrapper-->
+
+	<!--~~~~~~~~~~~~~~~~~~~FOOTER~~~~~~~~~~~~~~~~~~~~~-->
+	<footer>
+		<div class="inner">
+		<ul class="rights">
+			<li>copyright 2015</li>
+			<li>web design by lisa fortino</li>
+			<li>rights reserved</li>
+		</ul>
+
+		<div class="foot_Social">
+				<img src="images/facebook.png" alt="facebook">
+				<img src="images/twitter.png" alt="twitter">
+				<img src="images/instagram.png" alt="instagram">
+			
+		</div><!--end social-->
+
+		<ul class="foot_Cont">
+			<li>booking@plumerecords.com</li>
+			<li>press@plumerecords.com</li>
+			<li>info@plumerecords.com</li>
+		</ul>
+	</div>
+	</footer>
+	<!--~~~~~~~~~~~~~~~~~END FOOTER~~~~~~~~~~~~~~~~~~~-->
+<p>
+	<a href="https://validator.w3.org/nu/#textarea">
+		<img class="validator" src="images/html5.png" 
+			alt="validator" 
+			title="click to view"/>
+	</a>
+</p>
+
+
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+
+
+</body>
+</html>
