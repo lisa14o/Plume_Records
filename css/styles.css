@@ -85,11 +85,13 @@ header {
 	width: 100%;
 	/*background: rgba(211, 174, 205, .8);*/
 	/*background: rgba(248, 255, 186, .8);*/
-	background: rgba(252, 251, 169, .7);
+	/*background: rgba(252, 251, 169, .7);*/
 	/*background: #FCFBA9;*/
+	background: rgba(250, 250, 250, .9);
 	position: relative;
 	z-index: 120;
 	overflow: hidden;
+	
 }
 nav {
 	width: 70%;
@@ -113,7 +115,7 @@ ul.main_Nav li {
 	float: left;
 	display: inline;
 	width: 80px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Lora', serif;
 	font-weight: 700;
 	font-size: 1em;
 	letter-spacing: 1px;
@@ -126,7 +128,7 @@ ul.main_Nav li.lastItem {
 	text-decoration: none;
 	display: inline;
 	width: 80px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Lora', serif;
 	font-weight: 700;
 	font-size: 1em;
 	letter-spacing: 1px;
@@ -137,13 +139,11 @@ ul.main_Nav li.lastItem {
 ul.main_Nav li a {
 	text-decoration: none;
 	display: block;
-	color: #392F38;
+	color: #594F41;
 }
 
 ul.main_Nav li a:hover {
-	font-weight: bold;
-	border-left: 1.5px solid white;
-	border-right: 1.5px solid white;
+	font-size: 1.2em;
 }
 
 
@@ -351,6 +351,29 @@ a.cassie {
 .news img {
 	margin: auto;
 }
+
+#party_wrapper {
+	width: 800px;
+	/*background: #fafaf8;*/
+	background: #F2F1DB;
+	margin: 0 auto 2em auto;
+	overflow: hidden;
+}
+
+.party_photos {
+	margin: 0 1em 0 0;
+	overflow: hidden;
+	display: inline;
+	padding-bottom: 0;	
+	float: left;
+}
+
+a.party {
+	display: inline-block;	
+	width: 250px;
+	
+	
+}
 /*------------END NEWS------------*/
 
 
@@ -508,7 +531,7 @@ footer.desktop {
 	/*background-color: #9DD6C8;*/
 	/*background: #D3AECD;*/
 	/*background: rgba(252, 251, 169, .7);*/
-	background: #EEB9FD;
+	background: #F0DEFF;
 	overflow: hidden;
 }
 
