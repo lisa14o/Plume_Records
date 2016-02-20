@@ -280,6 +280,18 @@ a.buy_Now_Button {
 	margin-bottom: 2em;
 }
 
+.shows h3 {
+	border-bottom: none;
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.shows p {
+	margin-top: 0;
+}
+
 .article {
 	padding-top: 1.8em;
 	margin-bottom: 2em;
@@ -350,6 +362,7 @@ a.cassie {
 
 .news img {
 	margin: auto;
+	padding-bottom: 2em;
 }
 
 #party_wrapper {
