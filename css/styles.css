@@ -340,9 +340,7 @@ img.group_Photo {
 }
 
 a.cassie {
-	padding: 0;
 	font-size: .8em;
-	margin-bottom: 2em;
 }
 
 /*------------END ABOUT-----------*/
@@ -355,7 +353,7 @@ a.cassie {
 	display: block;
 	border-radius: 3px;
 	border: 2px solid #ccc;
-	padding: .5em;
+	padding: 1.5em;
 	-webkit-box-shadow: 5px 5px 22px -4px rgba(0,0,0,0.75);
 	-moz-box-shadow: 5px 5px 22px -4px rgba(0,0,0,0.75);
 	box-shadow: 5px 5px 22px -4px rgba(0,0,0,0.75);
@@ -366,9 +364,8 @@ a.cassie {
 	padding-bottom: 2em;
 }
 
-.news p {
-	width: 90%;
-	margin: 0 auto;
+.news img.cassie {
+	padding-bottom: 0;
 }
 
 #party_wrapper {
