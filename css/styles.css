@@ -342,6 +342,7 @@ img.group_Photo {
 a.cassie {
 	padding: 0;
 	font-size: .8em;
+	margin-bottom: 2em;
 }
 
 /*------------END ABOUT-----------*/
@@ -363,6 +364,11 @@ a.cassie {
 .news img {
 	margin: auto;
 	padding-bottom: 2em;
+}
+
+.news p {
+	width: 90%;
+	margin: 0 auto;
 }
 
 #party_wrapper {
