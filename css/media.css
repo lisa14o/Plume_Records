@@ -337,6 +337,18 @@
 		display: none;
 	}
 
+	img.single_song {
+		margin: 1em auto;
+		width: 100%;
+	}
+
+	.main_song iframe {
+		width:  100%;
+		margin: 0 auto .5em auto;
+		clear: both;
+		display: block;
+	}
+
 	.rec {
 		width: 43%;
 		margin-left: .6em;
