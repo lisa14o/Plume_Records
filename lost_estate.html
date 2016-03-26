@@ -15,6 +15,7 @@
 <title>Plume Records // THE LOST ESTATE</title>
 <link href=css/styles.css rel=stylesheet >
 <link href=css/media.css rel=stylesheet  >
+<link href=css/lightbox.css rel=stylesheet  >
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700' rel='stylesheet' type='text/css'>
@@ -48,8 +49,8 @@
 			</nav>
 		</div><!--end menu wrap-->
 	</header>
-	
-	<!--~~~~~~~~~~~~~~~~~~start mobile nav~~~~~~~~~~~~~~~~~-->
+
+		<!--~~~~~~~~~~~start mobile nav~~~~~~~~~~~-->
 		<button class="nav-button">Toggle Navigation</button>
 			<ul class="primary-nav">
 				<li><a href="index.html">HOME</a></li>
@@ -58,7 +59,7 @@
 				<li><a href="about.html">ABOUT</a></li>
 				<li><a href="store.html">STORE</a></li>
 			</ul><!--end mobile nav-->
-	<!--~~~~~~~~~~~~~~~~end start mobile nav~~~~~~~~~~~~~~~-->
+	<!--~~~~~~~~~~~~~~~~~END HEADER~~~~~~~~~~~~~~~~~~~~~-->
 
 <div id="wrapper">
 	
@@ -66,23 +67,39 @@
 	<div class="merch_main">
 		
 		<div id="merch_Inner_Photos">
+
 			<img class="big_Photo" src="images/lost_estate_jacket.png" alt="big album">
-			<!--<img class="small_Photo" src="images/lost_estate_back.jpg" alt="little album">
-			<img class="small_Photo" src="images/lost_estate_back_jacket.png" alt="little album">
-			<img class="small_Photo" src="images/lost_estate.jpg" alt="little album">-->
+
+			<div class="album_photos">
+				<a class="small" href="http://www.plumerecords.com/images/LE_front_vinyl.jpg" data-lightbox="example-2"><img class="small"src="http://www.plumerecords.com/images/LE_front_vinyl.jpg" alt="lost estate record front"/></a>
+			</div>
+
+			<div class="album_photos">
+				<a class="small" href="http://www.plumerecords.com/images/lost_estate_back_jacket.png" data-lightbox="example-2"><img class="small"src="http://www.plumerecords.com/images/lost_estate_back_jacket.png" alt="lost estate jacket back"/></a>
+			</div>
+			<div class="album_photos">
+				<a class="small" href="http://www.plumerecords.com/images/LE_back_vinyl.jpg" data-lightbox="example-2"><img class="small"src="http://www.plumerecords.com/images/LE_back_vinyl.jpg" alt="lost estate record back"/></a>
+			</div>
+
 		</div><!--end merch Photo-->
 
 		<div class="song">
 			<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/243150003&amp;color=cb99cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 		</div><!--end song-->
 
-		<a class="buy_Now_Button">
+		<div class="merch_info">
+			<p class="main_merch_desc">The Lost Estate</p>
+			<p class="main_merch_price">LP + Digital $15 // Digital $8.00</p>
+			<a class="buy_mp3" href="https://johndillonmusic.bandcamp.com/album/the-lost-estate" target="_blank">buy digital</a>
+			<a class="buy_Now_Button">
 				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 					<input type="hidden" name="cmd" value="_s-xclick">
 					<input type="hidden" name="hosted_button_id" value="KF6MCQWL2EJKE">
 					<input type="image" src="http://plumerecords.com/images/buy_now.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 				</form></a>
+		</div><!--end merch_info-->
+
 
 		<p class="liner_notes">Produced by Dillon Sturtevant and Andy Meyer<br>
 		All songs written and arranged by Dillon Sturtevant<br>
