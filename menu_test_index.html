@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+			$(".nav-button").click(function () {
+			$(".nav-button,.primary-nav").toggleClass("open");
+			});    
+		});
+		</script>
+
+<title>Menu Test</title>
+<link href=css/test_menu.css rel=stylesheet >
+<link href=css/media.css rel=stylesheet  >
+
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,900,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+</head>
+<body>
+	
+	<header>
+		<div class="logo_wrap">
+			<div id="logo">
+				<a href="index.html"><img src="images/new_logo.png" alt="logo"></a>
+			</div><!--end logo-->
+		</div><!--end logo wrap-->
+
+		
+				<ul id="menu">
+					<li><a href="news.html">NEWS</a></li>
+					<li>
+						<a href="john_dillon.html">ARTISTS</a>
+						<ul class="hidden">
+							<li><a href="menu_test_john.html">John Dillon</a></li>
+							<li><a href="cassette.html">Artist 2</a></li>
+							<li><a href="lost_estate.html">Artist 3</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="store.html">STORE</a></li>
+				</ul>
+			
+	</header>
+	
+</body>
+</html>
