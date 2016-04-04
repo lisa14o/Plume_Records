@@ -81,8 +81,6 @@ header {
 .menu_wrap{
 	width: 100%;
 	background: rgba(250, 250, 250, .9);
-	position: relative;
-	z-index: 120;
 	overflow: hidden;
 	
 }
@@ -99,79 +97,92 @@ nav {
 	display: none;
 }
 
-ul.main_Nav {
-	text-align: center;
-}
-
-ul.main_Nav li {
-	text-decoration: none;
-	float: left;
-	display: inline;
-	width: 80px;
-	font-family: 'Lora', serif;
-	font-weight: 700;
-	font-size: 1em;
-	letter-spacing: 1px;
-	margin-right: 3em;
-	padding-top: 3px;
-}
- 
-ul.main_Nav li.lastItem {
-	float: right;
-	text-decoration: none;
-	display: inline;
-	width: 80px;
-	font-family: 'Lora', serif;
-	font-weight: 700;
-	font-size: 1em;
-	letter-spacing: 1px;
-	margin-right: .8em;
-	padding-top: 3px;
-}
-
-ul.main_Nav li a {
-	text-decoration: none;
-	display: block;
-	color: #594F41;
-}
-
-ul.main_Nav li a:hover {
-	font-size: 1.2em;
-}
-
-
-ul.sub_Nav {
-	padding: 0;
-	position: absolute;
-	top: 238px;
-	left: 315px;
-	width: 200px;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+.mobile_menu_wrap, #mobile_menu, .mobile_hidden {
 	display: none;
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transiton: opacity 0.2s;
-	-moz-transition: opacity 0.2s;
-	-ms-transition: opacity 0.2s;
-	-o-transition: opacity 0.2s;
-	-transition: opacity 0.2s;
 }
 
-ul.main_Nav li ul.sub_Nav li {
-	display: block;
-	text-align: center;
-	background: #ccc;
-	color: black;
+/*Strip the ul of padding and list styling*/
+ul#menu {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+
+}
+
+ul.hidden {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	position: absolute;
+}
+
+/*Create a horizontal list with spacing*/
+li {
+	display:inline-block;
+	float: left;
+	margin-right: 1px;
+	font-family: 'Lora', serif;
+	font-weight: 700;
+	font-size: 1em;
+	letter-spacing: 1px;
 	width: 150px;
 }
 
-ul.main_Nav li:hover ul.sub_Nav {
-	display: block;
-	opacity: 1;
-	visibility: visible;
+ul#menu li:hover {
+	font-size: 1.2em;
 }
+
+/*Style for menu links*/
+li a {
+	display:block;
+	min-width:140px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #594F41;
+	text-decoration: none;
+}
+
+/*Style for dropdown links*/
+ul li:hover ul a {
+	background: rgba(250, 250, 250, .9);
+	color: #594F41;
+	height: 40px;
+	line-height: 40px;
+	font-size: .65em;
+	margin-left: -15px;
+}
+
+/*Hover state for dropdown links*/
+ul li:hover ul a:hover {
+	font-size: .666em;
+}
+
+/*Hide dropdown links until they are needed*/
+li ul {
+	display: none;
+}
+
+/*Make dropdown links vertical*/
+li ul li {
+	display: block;
+	float: none;
+}
+
+/*Prevent text wrapping*/
+li ul li a {
+	width: 170px;
+	min-width: 100px;
+	
+	
+}
+
+/*Display the dropdown on hover*/
+ul li a:hover + .hidden, .hidden:hover {
+	display: block;
+}
+
 
 .logo_wrap {
 	width: 70%;
@@ -221,6 +232,16 @@ ul.soc li img {
 	width: 30px;
 	display: inline;
 }
+
+
+
+
+
+
+
+
+
+
 /*----------END HEADER-----------*/
 
 main {

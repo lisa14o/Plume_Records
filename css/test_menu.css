@@ -96,92 +96,11 @@ nav {
 .nav-button, .primary-nav {
 	display: none;
 }
-/*
-ul.main_menu {
-	text-align: center;
-}
-
-ul.main_menu li {
-	text-decoration: none;
-	float: left;
-	display: inline;
-	width: 80px;
-	font-family: 'Lora', serif;
-	font-weight: 700;
-	font-size: 1em;
-	letter-spacing: 1px;
-	margin-right: 3em;
-	padding-top: 3px;
-}
- 
-ul.main_menu li.lastItem {
-	float: right;
-	text-decoration: none;
-	display: inline;
-	width: 80px;
-	font-family: 'Lora', serif;
-	font-weight: 700;
-	font-size: 1em;
-	letter-spacing: 1px;
-	margin-right: .8em;
-	padding-top: 3px;
-}
-
-ul.main_menu li a {
-	text-decoration: none;
-	display: block;
-	color: #594F41;
-}
-
-ul.main_menu li a:hover {
-	font-size: 1.2em;
-}
-
-ul.main_menu li a:focus {
-	font-size: 1.2em;
-}
 
 
-ul.sub_Nav {
-	padding: 0;
-	position: absolute;
-	top: 238px;
-	left: 315px;
-	width: 200px;
-	-webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+.mobile_menu_wrap, #mobile_menu, .mobile_hidden {
 	display: none;
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transiton: opacity 0.2s;
-	-moz-transition: opacity 0.2s;
-	-ms-transition: opacity 0.2s;
-	-o-transition: opacity 0.2s;
-	-transition: opacity 0.2s;
 }
-
-ul.main_menu li ul.sub_Nav li {
-	display: block;
-	text-align: center;
-	background: #ccc;
-	color: black;
-	width: 150px;
-}
-
-/*ul.main_menu li:hover ul.sub_Nav {
-	display: block;
-	opacity: 1;
-	visibility: visible;
-}
-
-ul.main_menu li:focus ul.sub_Nav {
-	display: block;
-	opacity: 1;
-	visibility: visible;
-}*/
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /*Strip the ul of padding and list styling*/
 ul#menu {
@@ -268,64 +187,114 @@ ul li a:hover + .hidden, .hidden:hover {
 /*Style 'show menu' label button and hide it by default*/
 
 @media screen and (max-width: 480px) {
-	li {
-		font-size: .6em;
-		width: 80px;
+
+	.menu_wrap, #menu, .hidden {
+		display: none;
 	}
 
-	ul#menu li:hover {
+	.mobile_menu_wrap {
+		display: block;
+		width: 100%;
+		background: rgba(250, 250, 250, .9);
+		overflow: hidden;
+	}
+
+	nav {
+		width: 100%;
+		margin: 0 auto;
+		height: 30px;
+		line-height: 30px;
+		display: block;
+		border-radius: 2px;
+	}
+
+	/*Strip the ul of padding and list styling*/
+	ul#mobile_menu {
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		position: absolute;
+		display: block;
+		width: 100%;
+	}
+
+	
+
+	/*Create a horizontal list with spacing*/
+	li {
+		display:inline-block;
+		float: left;
+		margin-right: 1px;
+		font-family: 'Lora', serif;
+		font-weight: 700;
+		font-size: .6em;
+		letter-spacing: 1px;
+		width: 75px;
+	}
+
+	ul#mobile_menu li:hover {
 		font-size: .8em;
 	}
 
 	/*Style for menu links*/
 	li a {
 		display:block;
-		min-width:140px;
+		min-width: 80px;
 		height: 30px;
 		text-align: center;
 		line-height: 30px;
 		color: #594F41;
 		text-decoration: none;
-	}
-
-	/*Style for dropdown links*/
-	ul li:hover ul a {
-		background: rgba(250, 250, 250, .9);
-		color: #594F41;
-		height: 40px;
-		line-height: 40px;
-		font-size: .65em;
-		margin-left: -15px;
-	}
-
-	/*Hover state for dropdown links*/
-	ul li:hover ul a:hover {
-		font-size: .666em;
-	}
-
-	/*Hide dropdown links until they are needed*/
-	li ul {
-		display: none;
-	}
-
-	/*Make dropdown links vertical*/
-	li ul li {
-		display: block;
-		float: none;
-	}
-
-	/*Prevent text wrapping*/
-	li ul li a {
-		width: 170px;
-		min-width: 100px;
-		
 		
 	}
 
-	/*Display the dropdown on hover*/
-	ul li a:hover + .hidden, .hidden:hover {
-		display: block;
-	}
+	.button-dropdown {
+    position: relative;
+}
+
+	li .dropdown_menu {
+    display: none;
+    position: absolute;
+    left: 50px;
+    padding: 0;
+    margin: 0;
+   	margin-left: 10px;
+    
+}
+
+li.item {
+	width: 120px;
+
+	
+}
+
+ul li:hover ul a {
+	background: rgba(250, 250, 250, .9);
+	color: #594F41;
+	height: 30px;
+	line-height: 30px;
+	font-size: .65em;
+	margin-left: 0;
+}
+
+li .dropdown_menu.active {
+    display: block;
+}
+
+li .dropdown_menu a {
+    width: 120px;
+
+}
+
+li a:hover, .nav li a.dropdown_toggle.active {
+    
+}
+
+li a:hover span, .nav li a.dropdown_toggle.active span {
+                                                                                                                                                        
+}
+
+	
 
 
 }

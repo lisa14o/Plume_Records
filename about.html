@@ -30,34 +30,47 @@
 <body>
 	
 	<header>
+
 		<div class="logo_wrap">
 			<div id="logo">
 				<a href="index.html"><img src="images/new_logo.png" alt="logo"></a>
 			</div><!--end logo-->
 		</div><!--end logo wrap-->
-
-		<div class="menu_wrap">
-			<nav>
-				<ul class="main_Nav">
-					<li><a href="news.html">NEWS</a></li>
-					<li><a href="john_dillon.html">ARTISTS</a></li>
-					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="store.html">STORE</a></li>
+		
+<div class="menu_wrap">
+	<nav>
+		<ul id="menu">
+			<li><a href="news.html">NEWS</a></li>
+			<li><a href="john_dillon.html">ARTISTS</a>
+				<ul class="hidden">
+					<li><a href="john_dillon.html">John Dillon</a></li>
+					<li><a href="cassette.html">Magic Magic Roses</a></li>
+					<li><a href="lost_estate.html">BECAUSE</a></li>
 				</ul>
-			</nav>
-		</div><!--end menu wrap-->
+			</li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="store.html">STORE</a></li>
+		</ul>
+	</nav>
+</div><!--end menu-->
+
+<div class="mobile_menu_wrap">
+	<nav>
+		<ul id="mobile_menu">
+			<li><a href="news.html">NEWS</a></li>
+			<li class="button_dropdown"><a class="dropdown_toggle" href="javascript:void(0)">ARTISTS</a>
+				<ul class="dropdown_menu">
+					<li class="item"><a href="john_dillon.html">John Dillon</a></li>
+					<li class="item"><a href="cassette.html">Magic Magic Roses</a></li>
+					<li class="item"><a href="lost_estate.html">BECAUSE</a></li>
+				</ul>
+			</li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="store.html">STORE</a></li>
+		</ul>
+	</nav>
+</div><!--end 480 menu-->
 	</header>
-	
-	<!--~~~~~~~~~~~~~~~~~~start mobile nav~~~~~~~~~~~~~~~~~-->
-		<button class="nav-button">Toggle Navigation</button>
-			<ul class="primary-nav">
-				<li><a href="index.html">HOME</a></li>
-				<li><a href="news.html">NEWS</a></li>
-				<li><a href="john_dillon.html">ARTISTS</a></li>
-				<li><a href="about.html">ABOUT</a></li>
-				<li><a href="store.html">STORE</a></li>
-			</ul><!--end mobile nav-->
-	<!--~~~~~~~~~~~~~~~~end start mobile nav~~~~~~~~~~~~~~~-->
 
 <div id="wrapper">
 
@@ -116,6 +129,35 @@
 	</footer>
 	<!--~~~~~~~~~~~~~~~end mobile footer~~~~~~~~~~~~~~~~~~-->
 <script type="text/javascript" src="js/lightbox.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+<script>
+	jQuery(document).ready(function (e) {
+    function t(t) {
+        e(t).bind("click", function (t) {
+            t.preventDefault();
+            e(this).parent().fadeOut()
+        })
+    }
+    e(".dropdown_toggle").click(function () {
+        var t = e(this).parents(".button_dropdown").children(".dropdown_menu").is(":hidden");
+        e(".button_dropdown .dropdown_menu").hide();
+        e(".button_dropdown .dropdown_toggle").removeClass("active");
+        if (t) {
+            e(this).parents(".button_dropdown").children(".dropdown_menu").toggle().parents(".button_dropdown").children(".dropdown_toggle").addClass("active")
+        }
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button_dropdown")) e(".button_dropdown .dropdown_menu").hide();
+    });
+    e(document).bind("click", function (t) {
+        var n = e(t.target);
+        if (!n.parents().hasClass("button_dropdown")) e(".button_dropdown .dropdown_toggle").removeClass("active");
+    })
+});
+
+</script>
 
 </body>
 </html>
