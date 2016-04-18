@@ -6,10 +6,6 @@
 		width: 85%;
 	}
 
-	/*nav {
-		width: 85%;
-	}*/
-
 	.logo_wrap {
 		width: 85%;
 	}
@@ -41,7 +37,6 @@
 /*--------------------------------------768------------------------------------*/
 @media screen and (max-width: 768px) {
 
-	
 	header {
 		width: 100%;
 	}
@@ -88,12 +83,6 @@
 
 	.album_description h2 {
 		font-size: 1.2em;
-	}
-
-	.album_description p {
-		padding-top: 1em;
-		font-size: .8em;
-		line-height: 1.4em;
 	}
 
 	#Merch {
@@ -190,21 +179,18 @@
 		margin-bottom: 1em;
 	}
 
-	ul.main_Nav li {
-		width: 75px;
-		margin-right: 3em;
+	li {
+		width: 24%;
+	}
+
+	nav {
+		width: 100%;
 		
 	}
 
-	/*nav {
-		width: 83%;
-		
-	}*/
-
 	#party_wrapper {
-	width: 90%;
-	margin: 0 auto 2.7em auto;
-	
+		width: 90%;
+		margin: 0 auto 2.7em auto;
 	}
 
 	.party_photos {
@@ -227,101 +213,57 @@
 	}
 
 }
-/*--------------------------------------560------------------------------------*/
-@media screen and (max-width: 576px) {
-
-	.inner {
-		width: 500px;
-	}
-
-	ul.rights {
-		margin: .5em;
-	}
-
-	ul.foot_Cont {
-		margin:.5em;
-	}
-
-	.foot_Social {
-		width: 28%;
-		margin:1.3em auto;
-	}
-
-	.foot_Social img {
-		width: 35px;
-		padding-left: .5em;
-	}
-
-	.rec {
-		width: 40%;
-		margin-left: 2em;
-		margin-right: 0;
-		margin-bottom: 1em;
-	}
-
-	.merch {
-		float: none;
-		width: 65%;
-		margin: 1em auto;
-	}
-
-	p.merch_Desc {
-		font-size: .8em;
-		line-height: 1.5em;
-	}
-
-	p.merch_Price {
-		font-size: .8em;
-		padding-top: .3em
-	}
-
-	.merch_main {
-		width: 99%;
-	}
-
-	.article {
-		width: 100%;
-	}
-
-	.album_description {
-		width: 99%;
-	}
-
-	.image_caption {
-		width: 100%;
-		margin: 0 auto 3em auto;
-	}
-
-	
-	ul.main_Nav li {
-		width: 80px;
-		margin-right: 1.6em;
-		
-	}
-
-}
-
-
 
 /*--------------------------------------480------------------------------------*/
+
 @media screen and (max-width: 480px) {
 
-	body{ 
-	padding-top: 0 }
+	body { 
+		padding-top: 0 
+	}
+
+	h1, h2, h3, h4 {
+		font-size: 95%
+	}
+
+	p {
+		font-size: 85%;
+		line-height: 160%;
+	}
 
 	#wrapper {
 		width: 95%;
 		margin: 40px auto 0 auto;
 	}
 
-	.article p {
-		line-height: 170%;
-		font-size: .9em;
-	}
+	/*----------- Header --------------*/
 
 	header {
 		background: url('../images/LE_480_head6.jpg');
 		position: right 10px top 0;
+	}
+
+	.logo_wrap {
+		width: 70%;
+		float: left;
+		display: inline-block;
+		margin: 0;
+		vertical-align: middle;
+	}
+
+	#logo {
+		margin-left: 20px;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-top: 0;
+		float: none;
+		width: 40px;
+		display: inline-block;
+	}
+
+	#logo img {
+		width: 100px;
+		margin-bottom: 0;
 	}
 
 	.menu_wrap, #menu, .hidden {
@@ -415,100 +357,159 @@
 	    width: 120px;
 	}
 
-	/*li a:hover, .nav li a.dropdown_toggle.active {
-	    
-	}
-
-	li a:hover span, .nav li a.dropdown_toggle.active span {
-	                                                                                                                                                        
-	}*/
-
-	p {
-		line-height: 170%;
-		font-size: .9em;
-	}
-
-	/*nav {
-		display: none;
-	}*/
-
-	main {
-		width: 100%;
-	}
+	/*----------- Common --------------*/
 
 	a.buy_mp3 {
-		font-family: 'Lora', serif;
-		font-size: .9em;
-		padding: 4px;
-		background: #EEB9FD;
-		border: white;
-		height: 1.6em;
-		line-height: 1.6em;
-		float: right;
-		text-decoration: none;
-		text-align: center;
-		z-index: 1;
-		color: #595143;
-		-webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
-		-moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
-		box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
 		margin-bottom: .5em;
 		margin-top: .2em;
 		margin-left: 1em;
-		font-weight: normal;
 	}
 
 	a.buy_mp3_artist {
-		font-family: 'Lora', serif;
-		font-size: .9em;
-		padding: 4px;
-		background: #EEB9FD;
-		border: white;
-		height: 1.6em;
-		line-height: 1.6em;
-		float: right;
-		text-decoration: none;
-		text-align: center;
-		z-index: 1;
-		color: #595143;
-		-webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
-		-moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
-		box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
 		margin-bottom: .5em;
 		margin-top: .2em;
 		margin-left: 1em;
 		margin-right: 1em;
-		font-weight: normal;
 	}
 
-	a.buy_mp3_store{
-		font-family: 'Lora', serif;
-		font-size: .9em;
-		padding: 4px;
-		background: #EEB9FD;
-		border: white;
-		height: 1.6em;
-		line-height: 1.6em;
-		float: right;
-		text-decoration: none;
-		text-align: center;
-		z-index: 1;
-		color: #595143;
-		-webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
-		-moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
-		box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
+	a.buy_mp3_store {
 		margin-bottom: .5em;
 		margin-top: .2em;
 		margin-left: 1em;
 		margin-right: .2em;
-		font-weight: normal;
 	}
 
+	a.buy_Now_Button {
+		display: block;
+	}
+
+	.article {
+		padding-top: 1em;
+	}
+
+	/*----------- Home --------------*/
+
+	
+	img.single_song {
+		margin: 1em auto;
+		width: 100%;
+	}
+
+	h1.pre_order {
+		font-size: .7em;
+	}
+
+	.main_song iframe {
+		width:  100%;
+		margin: 0 auto .5em auto;
+		clear: both;
+		display: block;
+	}
+
+	/*----------- About --------------*/
+
+	.image_caption {
+		width: 100%;
+	}
+
+	p.mission {
+		width: 100%;
+	}
+
+	/*------------ News ---------------*/
+
+	#party_wrapper {
+		width: 95%;
+		margin: 20px auto 30px auto;
+	}
+
+	.party_photos {
+		margin: 0 10px 0 0;
+		width: 48.3%;
+	}
+
+	.party_photos:nth-child(even) {
+		width: 48.3%;
+	}
+
+	/*------------ Artist ---------------*/
+
+	.merch {
+		float: none;
+		width: 65%;
+		margin: 1em auto;
+	}
+
+	img.profile {
+	 	margin-bottom: 1em;
+	} 
+
+	.bio {
+		margin-bottom: 1em;
+	}
+
+	/*---------- Merch Innner -----------*/
+
+	#merch_Inner_Photos {
+		width: 100%;
+		margin: auto;
+	}
+
+	#merch_Inner_Photos img.big_Photo {
+		padding: 0;
+		margin: 0;
+		float: none;
+	}
 
 	.album_photos {
 		display: none;
 	}
 
+	.album_description {
+		width: 100%;
+		padding-top: .8em;
+		float: none;
+		clear: both;
+	}
+
+	blockquote {
+		line-height: 160%;
+		font-size: .9em;
+		font-weight: bold;
+		padding-left: 1.8em;
+		padding-right: 1.8em;
+		width: 85%;
+	}
+
+	blockquote:before {
+		margin: 15px 5px 5px -25px;
+	}
+
+	blockquote:after {
+		margin: 23px 5px 5px 5px;
+	}
+
+	p.senna {
+		font-size: 1em;
+		padding-top: .5em;
+		padding-right: 1.8em;
+	}
+
+	p.liner_notes_mobile {
+		display: block;
+		font-size: .7em;
+		margin-bottom: 2em;
+		clear: both;
+		width: 100%;
+	}
+
+	.song iframe {
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+
+	/*------------- Store -------------*/
+	
 	.recommend {
 		margin-bottom: 1em;
 	}
@@ -522,170 +523,6 @@
 		margin-bottom: 0;
 	}
 
-	.social {
-		display: none;
-	}
-
-	ul.soc {
-		display: none;
-	}
-
-	ul.soc li {
-		display: none;
-	}
-
-	ul.soc li img {
-		display: none;
-	}
-
-	img.single_song {
-		margin: 1em auto;
-		width: 100%;
-	}
-
-	.main_song iframe {
-		width:  100%;
-		margin: 0 auto .5em auto;
-		clear: both;
-		display: block;
-	}
-
-	aside {
-		width: 100%;
-	}
-
-	.album_description {
-		padding-top: .8em;
-	}
-
-	.album_description p {
-		line-height: 170%;
-		font-size: .9em;
-	}
-
-	p.liner_notes_mobile {
-		display: block;
-		font-size: .7em;
-		margin-bottom: 2em;
-		clear: both;
-		width: 100%;
-	}
-
-	#merch_Inner_Photos {
-		width: 100%;
-		margin: auto;
-	}
-
-	#merch_Inner_Photos img.big_Photo {
-		padding: 0;
-		margin: 0;
-		float: none;
-	}
-
-	.album_description {
-		width: 100%;
-		padding-top: .8em;
-		float: none;
-		clear: both;
-	}
-
-	.album_description h2 {
-		font-size: 1.2em;
-		padding-top: 0;
-		margin-bottom: 0;
-	}
-
-	.merch {
-		float: none;
-		width: 65%;
-		margin: 1em auto;
-	}
-
-	
-	p.merch_Desc {
-		font-size: .8em;
-		width: 100%;
-	}
-
-	p.merch_price {
-		font-size: .6em;
-		width: 100%;
-	}
-
-	.nav-button, .primary-nav {
-		display: block;
-	}
-
-	.song iframe {
-		margin-bottom: 1em;
-		margin-top: 1em;
-	}
-
-	p.mission {
-		width: 100%;
-	}
-
-	img.group_Photo {
-		width: 100%;
-	}
-
-	blockquote {
-		quotes: "\201C" "\201D";
-		line-height: 160%;
-		font-size: .9em;
-		font-weight: bold;
-		padding-top: 2.5em;
-		padding-left: 1.8em;
-		padding-right: 1.8em;
-		text-align: justify;
-		width: 85%;
-	}
-
-	blockquote:before, blockquote:after {
-		font: bold 45px/1px Times, serif;
-		color: rgba(211, 174, 205, 1);
-		position: absolute;
-	}
-
-	blockquote:before {
-		content: open-quote;
-		margin: 15px 5px 5px -25px;
-	}
-
-	blockquote:after {
-		content: close-quote;
-		margin: 23px 5px 5px 5px;
-	}
-
-	p.senna {
-		font-size: 1em;
-		text-align: right;
-		font-weight: bold;
-		padding-top: .5em;
-		padding-right: 1.8em;
-	}
-
-	.single {
-		width: 98%;
-	}
-
-	.jacket {
-		width: 98%;
-	}
-
-	h1.pre_order {
-		width: 98%;
-		font-size: .7em;
-	}
-
-	a.two_jacket {
-		margin-right: .3em;
-	}
-
-	a.buy_Now_Button {
-		display: block;
-	}
-
 	p.merch_Desc {
 		font-size: .8em;
 	}
@@ -694,28 +531,23 @@
 		font-size: .6em;
 	}
 
-	#party_wrapper {
-		width: 95%;
-		margin: 20px auto 30px auto;
-	}
+	/*------------- Footer -------------*/
 
-	.party_photos {
-		margin: 0 10px 0 0;
-		width: 48.3%;
-	}
-
-	.party_photos:nth-child(even) {
-		margin: 0;
+	.mobile_social {
+		margin: .7em auto;
+		float: none;
+		width: 180px;
+		display: block;
 		overflow: hidden;
-		display: inline;
-		padding-bottom: 0;	
-		float: left;
-		width: 48.3%;
 	}
 
-	a.party {
-		display: block;	
-		width: 100%;
+	.mobile_social img {
+		display: inline;
+		width: 30px;
+		float: left;
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-bottom: 0;
 	}
 
 	footer.desktop {
@@ -769,44 +601,20 @@
 		font-size: 8px;
 	}
 
-	.logo_wrap {
-		width: 70%;
-		float: left;
-		display: inline-block;
-		margin: 0;
-		vertical-align: middle;
+	.social {
+		display: none;
 	}
 
-	#logo {
-		margin-left: 20px;
-		margin-right: 0;
-		margin-bottom: 0;
-		margin-top: 0;
-		float: none;
-		width: 40px;
-		display: inline-block;
+	ul.soc {
+		display: none;
 	}
 
-	#logo img {
-		width: 100px;
-		margin-bottom: 0;
+	ul.soc li {
+		display: none;
 	}
 
-	.mobile_social {
-		margin: .7em auto;
-		float: none;
-		width: 180px;
-		display: block;
-		overflow: hidden;
-	}
-
-	.mobile_social img {
-		display: inline;
-		width: 30px;
-		float: left;
-		margin-left: 15px;
-		margin-right: 15px;
-		margin-bottom: 0;
+	ul.soc li img {
+		display: none;
 	}
 
 }

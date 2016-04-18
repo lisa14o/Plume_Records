@@ -22,13 +22,11 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-	
 	font-size: 1.1em;
 	line-height: 1.3em; 
 }
 
 h3 {
-	
 	font-size: 1.2em;
 	line-height: 2em; 
 }
@@ -66,7 +64,7 @@ img {
 	overflow: hidden;
 }
 
-/*-------------HEADER-----------*/
+/*------------ Header ------------*/
 header {
 	width: 100%;
 	overflow: hidden;
@@ -82,10 +80,10 @@ header {
 	width: 100%;
 	background: rgba(250, 250, 250, .9);
 	overflow: hidden;
-	
 }
+
 nav {
-	width: 70%;
+	width: 95%;
 	margin: 0 auto;
 	height: 2em;
 	line-height: 1.6em;
@@ -107,7 +105,6 @@ ul#menu {
 	margin:0;
 	padding:0;
 	position: absolute;
-
 }
 
 ul.hidden {
@@ -174,8 +171,6 @@ li ul li {
 li ul li a {
 	width: 170px;
 	min-width: 100px;
-	
-	
 }
 
 /*Display the dropdown on hover*/
@@ -183,9 +178,8 @@ ul li a:hover + .hidden, .hidden:hover {
 	display: block;
 }
 
-
 .logo_wrap {
-	width: 70%;
+	width: 95%;
 	margin: .5em auto 0 auto;
 	position: relative;
 	z-index: 120;
@@ -233,16 +227,7 @@ ul.soc li img {
 	display: inline;
 }
 
-
-
-
-
-
-
-
-
-
-/*----------END HEADER-----------*/
+/*---------- Common -----------*/
 
 main {
 	width: 68%;
@@ -280,7 +265,6 @@ a.buy_Now_Button {
 	text-align: center;
 	z-index: 1;
 	color: #595143;
-	
 	-webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
 	box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
@@ -384,8 +368,8 @@ p.mission {
 	margin: 2em auto;
 }
 
-
 /*------------HOME PAGE-----------*/
+
 .single {
 	width: 800px;
 	float: clear;
@@ -433,10 +417,9 @@ a.two_jacket {
 a.two_jacket:last-of-type{
 	margin-right: 0;
 }
-/*---------END HOME PAGE----------*/
 
+/*------------- About -----------*/
 
-/*-----------ABOUT PAGE-----------*/
 img.group_Photo {
 	max-width: 100%;
 	margin-bottom: 0;
@@ -451,10 +434,8 @@ a.cassie {
 	font-size: .8em;
 }
 
-/*------------END ABOUT-----------*/
+/*------------ News ------------*/
 
-
-/*--------------NEWS--------------*/
 .news {
 	background: white;
 	margin-bottom: 1.5em;
@@ -495,13 +476,10 @@ a.cassie {
 a.party {
 	display: inline-block;	
 	width: 250px;
-	
-	
 }
-/*------------END NEWS------------*/
 
+/*----------- Artist -------------*/
 
-/*-----------ARTIST--------------*/
 img.profile {
  	margin-bottom: 2em;
 } 
@@ -509,6 +487,10 @@ img.profile {
 .bio {
 	margin-bottom: 2em;
 	padding: 0;
+}
+
+.bio h1 {
+	margin-bottom: .5em;
 }
 
 #Merch {
@@ -527,10 +509,22 @@ img.profile {
 .merch img {
 	margin: .3em auto;
 }
-/*---------END ARTIST-----------*/
 
+.band_social {
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
 
-/*-----------MERCH INNER----------*/
+.band_social img {
+	width: 20%;
+	display: inline-block;
+	float: left;
+	margin-right: .5em;
+}
+
+/*----------- Merch Inner ----------*/
+
 .merch_main {
 	float: left;
 	width: 550px;
@@ -564,13 +558,11 @@ img.big_Photo {
 
 a.small {
 	display: inline-block;
-	
 }
 
 .album_description {
 	float: right;
 	width: 550px;
-	
 }
 
 blockquote {
@@ -622,10 +614,9 @@ p.liner_notes {
 	clear: both;
 	display: block;
 }
-/*--------END MERCH INNER---------*/
 
+/*----------- Store -----------*/
 
-/*--------MERCH LIST PAGE---------*/
 .recommend {
 	clear: both;
 	width: 100%;
@@ -677,10 +668,7 @@ p.main_merch_price {
 	color: #392F38;
 }
 
-/*------END MERCH LIST PAGE------*/
-
-
-/*-------------FOOTER------------*/
+/*------------ Footer ------------*/
 
 footer.mobile {
 	display: none;
@@ -750,7 +738,3 @@ ul.foot_Cont li {
 }
 
 /*----------END FOOTER------------*/
-
-img.validator {
-	width: 80px;
-}
