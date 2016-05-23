@@ -7,12 +7,14 @@ body {
 	background: #F2F1DB;
 	font-family: 'Lora', serif;
 	text-align: justify;
+	color: #392F38;
 }
 
 h1, h2, h3, h4 {
 	width: 100%;
 	border-bottom: 1px solid #392F38;
-	font-size: 1.4em;
+	/*font-size: 1.4em;*/
+	font-size: 22px;
 	color: #392F38;
 	line-height: 1.5em; 
 	margin-bottom: 1em;
@@ -32,7 +34,6 @@ h3 {
 }
 
 h4 {
-	
 	font-size: .8em;
 	padding-top: 0;
 	border-bottom: none;
@@ -47,7 +48,6 @@ p {
 
 a {
 	text-decoration: underline;
-	color: #392F38;
 	font-weight: bold;
 }
 
@@ -227,7 +227,7 @@ ul.soc li img {
 	display: inline;
 }
 
-/*---------- Common -----------*/
+
 
 main {
 	width: 68%;
@@ -478,7 +478,6 @@ a.party {
 	width: 250px;
 }
 
-/*----------- Artist -------------*/
 
 img.profile {
  	margin-bottom: 2em;
@@ -523,7 +522,6 @@ img.profile {
 	margin-right: .5em;
 }
 
-/*----------- Merch Inner ----------*/
 
 .merch_main {
 	float: left;
@@ -591,7 +589,6 @@ blockquote:after {
 }
 
 p.senna {
-	font-size: .9em;
 	text-align: right;
 	font-weight: bold;
 	padding-top: 1em;
@@ -658,14 +655,11 @@ p.main_merch_desc {
 	font-size: 1.3em;
 	font-weight: bold;
 	padding-bottom: 0;
-	color: #392F38;
-	
 }
 
 p.main_merch_price {
 	font-size: .8em;
 	font-weight: bold;
-	color: #392F38;
 }
 
 /*------------ Footer ------------*/
@@ -685,13 +679,12 @@ footer.desktop {
 	width: 550px;
 	margin: 0 auto;
 	overflow: hidden;
-	color: #392F38;
 }
 
 ul.rights {
 	float: left;
 	width: 160px;
-	margin:1em;
+	margin: 1em;
 	border-right: 1px solid white;
 	text-align: right;
 }
@@ -718,7 +711,6 @@ ul.rights li{
 
 .foot_Social a {
 	width: 2.5em;
-	color: #392F38;
 }
 
 ul.foot_Cont {
